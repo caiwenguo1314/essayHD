@@ -62,11 +62,9 @@ nav ul li a {
 }
 
 .logo-image {
-  position: absolute;
-  top: 10px;
-  top: 10px;
-  left: 20px;
   width: 10%;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .wechat {
@@ -151,7 +149,6 @@ nav ul li a {
   margin-bottom: 20px;
 }
 .logo-image-bottom {
-  /* margin-right: 40px; */
   width: 70%;
   height: 35%;
 }

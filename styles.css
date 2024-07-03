@@ -211,3 +211,51 @@ nav ul li a {
 .qq-qrcode {
   width: 150px;
 }
+.qrcodeRightArea {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(200, 200, 200);
+}
+.afterSales {
+  display: flex;
+  justify-content: center;
+}
+.afterSalesText {
+  margin-top: 100px;
+}
+.afterSalesTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+.afterSalesContent {
+  margin-top: 15px;
+  font-size: 20px;
+  color: grey;
+  margin-left: -10px;
+}
+.serviceArea {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.contact-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
+}
+.custom-icon {
+  font-size: 50px;
+  color: orange;
+}
+.serviceText {
+  width: 300px;
+}
+.serviceTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

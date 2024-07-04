@@ -259,3 +259,22 @@ nav ul li a {
   margin-bottom: 20px;
   font-weight: bold;
 }
+.famousUniversityArea {
+  display: flex;
+}
+.famousUniversity {
+  width: 50%;
+}
+.famousUniArea {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.famousUniTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.famousUniText {
+  font-size: 20px;
+}

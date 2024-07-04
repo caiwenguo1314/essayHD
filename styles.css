@@ -261,6 +261,7 @@ nav ul li a {
 }
 .famousUniversityArea {
   display: flex;
+  background-color: rgb(200, 200, 200, 0.1);
 }
 .famousUniversity {
   width: 50%;
@@ -277,4 +278,25 @@ nav ul li a {
 }
 .famousUniText {
   font-size: 20px;
+}
+.specialService {
+  display: flex;
+}
+.specialServiceImg {
+  width: 50%;
+}
+.specialServiceArea {
+  background-color: rgb(200, 200, 200, 0.2);
+  flex: 1;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+.specialServiceTitle {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.specialServiceText {
+  font-size: 20px;
+  margin-top: 40px;
 }

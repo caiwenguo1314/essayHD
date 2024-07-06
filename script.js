@@ -1,29 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
-  function searchInsert(nums, target) {
-    if (nums[0] > target) {
-      return 0;
-    }
-    if (nums[nums.length - 1] < target) {
-      return nums.length;
-    }
-    for (let i = 0; i < nums.length - 1; i++) {
-      if (nums[i] === target) {
-        return i;
-      } else {
-        if (nums[i] < target && nums[i + 1] > target) {
-          return i + 1;
-        }
-      }
-    }
-    if (nums[nums.length - 1] === target) {
-      return nums.length - 1;
-    }
-  }
-
-  console.log("searchInsert([1,3,5,6],5)", searchInsert([1, 3, 5, 6], 5));
-  console.log("searchInsert([1,3,5,6],2)", searchInsert([1, 3, 5, 6], 2));
-  console.log("searchInsert([1,3,5,6],0)", searchInsert([1, 3, 5, 6], 0));
-  console.log("searchInsert([1,3,5,6],6)", searchInsert([1, 3, 5, 6], 6));
+  document
+    .getElementById("scroll-link1")
+    .addEventListener("click", function () {
+      document.querySelector("#contact-footer").scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  document
+    .getElementById("scroll-link2")
+    .addEventListener("click", function () {
+      document.querySelector("#contact-footer").scrollIntoView({
+        behavior: "smooth",
+      });
+    });
 
   let lastScrollTop = 0;
   const navbar = document.getElementById("navbar");

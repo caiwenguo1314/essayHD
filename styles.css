@@ -259,3 +259,44 @@ nav ul li a {
   margin-bottom: 20px;
   font-weight: bold;
 }
+.famousUniversityArea {
+  display: flex;
+  background-color: rgb(200, 200, 200, 0.1);
+}
+.famousUniversity {
+  width: 50%;
+}
+.famousUniArea {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.famousUniTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.famousUniText {
+  font-size: 20px;
+}
+.specialService {
+  display: flex;
+}
+.specialServiceImg {
+  width: 50%;
+}
+.specialServiceArea {
+  background-color: rgb(200, 200, 200, 0.2);
+  flex: 1;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+.specialServiceTitle {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.specialServiceText {
+  font-size: 20px;
+  margin-top: 40px;
+}

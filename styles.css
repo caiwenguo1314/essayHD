@@ -96,6 +96,12 @@ nav ul li a {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .banner-image {
+    height: 100vh;
+  }
+}
+
 .aboutUs {
   display: flex;
   margin-left: 100px;
@@ -118,19 +124,21 @@ nav ul li a {
   width: 50%;
   height: auto;
 }
-
-.service-introduction {
-  margin-top: 50px;
+.service-introduction-container {
   background-color: rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  .service-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .serviceIntroductionTitle {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -432,5 +440,24 @@ nav ul li a {
       text-align: center;
       padding-bottom: 40px;
     }
+  }
+}
+.cardRow1 {
+  display: flex;
+  padding: 20px 0;
+}
+.essayCard {
+  width: 30%;
+  margin-right: 20px;
+  background-color: white;
+  padding: 30px;
+  border-left: 3px solid orange;
+  .essayTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .essayContent {
+    font-size: 17px;
   }
 }

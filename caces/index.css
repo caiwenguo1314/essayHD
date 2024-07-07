@@ -1,0 +1,92 @@
+a {
+  text-decoration: none; /* 取消下划线装饰 */
+  color: inherit; /* 继承父元素颜色 */
+  cursor: pointer; /* 设置光标类型为指针 */
+  background-color: transparent; /* 设置背景颜色为透明 */
+}
+
+a:hover {
+  color: inherit; /* 设置鼠标悬停时继承父元素颜色 */
+}
+html {
+  scroll-behavior: smooth;
+  /* 启用平滑滚动效果 */
+}
+.hidden{
+  display: none;
+}
+
+.cases-out {
+
+  position: relative;
+  background-image: url("../images/caces-1.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+
+.cases-features {
+  color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.cases-menu {
+  margin-top: 50px;
+  display: flex;
+  line-height: 60px;
+  vertical-align: baseline;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.cases-menu div {
+  padding: 0 50px;
+}
+
+.cases-context {
+  display: flex;
+  width: 1440px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cases-context>div {
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  border: solid;
+}
+
+.cases-engineering-1 {
+  display: flex;  
+  background-size: cover;  
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.cases-engineering-1-hover {
+  display: flex; 
+  width: 360px;
+  height: 160px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: orange solid 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease; 
+  align-items: center; 
+  font-size: 22px;
+  color: white;
+  padding:0 40px;
+}
+
+.cases-engineering-1-hover:hover {
+  opacity: 1;  
+}

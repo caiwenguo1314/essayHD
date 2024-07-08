@@ -449,4 +449,73 @@ nav ul li a {
     padding-left: 50px;
     width: 80vw;
   }
+  .cardRow1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .essayCard {
+    width: 80vw;
+    margin-right: 20px;
+    background-color: white;
+    padding: 30px;
+    border-left: 3px solid orange;
+    margin-bottom: 20px;
+  }
+  .specialService {
+    display: flex;
+    flex-direction: column;
+  }
+  .specialServiceImg {
+    width: 100%;
+  }
+  .evalutionArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .evaluationContainer {
+    width: 90%;
+  }
+  .evaluationCustomer {
+    display: none;
+  }
+  .famousUniversityArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .famousUniversity {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .serviceArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-service {
+    margin-right: 0;
+  }
+  .qrcodeArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-qrcode {
+    width: 100%;
+  }
+  .contact-us-text {
+    font-size: 30px;
+  }
+  .wechat-qrcode,
+  .qq-qrcode {
+    width: 80%;
+  }
+  .know-more {
+    display: flex;
+    flex-direction: column;
+  }
+  .know-more-info {
+    width: 80%;
+  }
+  .contact-method {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
 }

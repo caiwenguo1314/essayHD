@@ -529,4 +529,7 @@ nav ul li a {
   .serviceIntroductionContent {
     text-align: center;
   }
+  .service-introduction-container {
+    padding-bottom: 0px;
+  }
 }

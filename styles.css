@@ -343,7 +343,7 @@ nav ul li a {
   .evaluationCustomer {
     font-weight: bold;
   }
-  .evalutionBackground {
+  .evaluationBackground {
     background-color: white;
     border-radius: 4px;
     margin-bottom: 40px;
@@ -517,5 +517,11 @@ nav ul li a {
   .contact-method {
     margin-top: 20px;
     margin-left: 40px;
+  }
+  .customerEvaluation {
+    padding-top: 50px;
+    .customerEvaluationText {
+      font-size: 30px;
+    }
   }
 }

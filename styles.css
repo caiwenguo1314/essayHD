@@ -355,7 +355,7 @@ nav ul li a {
 .circle {
   position: absolute;
   top: -25px;
-  left: 160px;
+  left: 45%;
   width: 50px; /* 圆的直径 */
   height: 50px; /* 圆的直径 */
   background-color: orange; /* 圆的颜色 */

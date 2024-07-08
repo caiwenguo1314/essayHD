@@ -342,40 +342,40 @@ nav ul li a {
   justify-content: center;
   width: 30%;
   margin: 0 20px;
-  .evaluationCustomer {
-    font-weight: bold;
-  }
-  .evaluationBackground {
-    background-color: white;
-    border-radius: 4px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    .evaluationText {
-      font-size: 18px;
-      color: grey;
-      padding: 60px 0;
-      padding-bottom: 30px;
-      margin: 0 20px;
-    }
-  }
-  .circle {
-    position: absolute;
-    top: -25px;
-    left: 160px;
-    width: 50px; /* 圆的直径 */
-    height: 50px; /* 圆的直径 */
-    background-color: orange; /* 圆的颜色 */
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
-    .circle-icon {
-      color: white;
-      text-align: center;
-      padding-bottom: 40px;
-    }
-  }
+}
+.evaluationCustomer {
+  font-weight: bold;
+}
+.evaluationBackground {
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.circle {
+  position: absolute;
+  top: -25px;
+  left: 160px;
+  width: 50px; /* 圆的直径 */
+  height: 50px; /* 圆的直径 */
+  background-color: orange; /* 圆的颜色 */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+.evaluationText {
+  font-size: 18px;
+  color: grey;
+  padding: 60px 0;
+  padding-bottom: 30px;
+  margin: 0 20px;
+}
+.circle-icon {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
 }
 .cardRow1 {
   display: flex;
@@ -387,14 +387,14 @@ nav ul li a {
   background-color: white;
   padding: 30px;
   border-left: 3px solid orange;
-  .essayTitle {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 17px;
-  }
-  .essayContent {
-    font-size: 17px;
-  }
+}
+.essayTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.essayContent {
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {
@@ -529,7 +529,4 @@ nav ul li a {
   .serviceIntroductionContent {
     text-align: center;
   }
-  /* .add-contact-txt {
-    width: 200px;
-  } */
 }

@@ -56,6 +56,16 @@ nav ul li a {
   overflow: hidden;
 }
 
+@media (max-width: 400px) {
+  .banner-image {
+    height: 50vh;
+  }
+  .wechatNumber {
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
 .banner-image {
   width: 100%;
   height: auto;
@@ -95,6 +105,7 @@ nav ul li a {
   align-items: center;
   border-radius: 8px;
 }
+
 .wechatNumber {
   font-size: 18px;
   cursor: pointer;
@@ -108,10 +119,12 @@ nav ul li a {
 .aboutUsArea {
   margin-left: 100px;
 }
+
 .aboutUsTitle {
   margin-top: 40px;
   font-size: 40px;
 }
+
 .aboutUsContent {
   margin-top: 20px;
   color: grey;
@@ -142,6 +155,7 @@ nav ul li a {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .serviceIntroductionContent {
   width: 90%;
   justify-content: center;
@@ -163,49 +177,60 @@ nav ul li a {
   margin-right: 20px;
   color: white;
 }
+
 .add-contact-txt {
   cursor: pointer;
 }
+
 .know-more {
   margin-top: 40px;
   display: flex;
   margin-bottom: 40px;
 }
+
 .know-more-info-title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .logo-image-bottom {
   width: 70%;
   height: 35%;
 }
+
 .logo-image-bottom-area {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .know-more-info {
   padding-left: 40px;
   border-left: 0.5px solid rgb(108, 99, 99);
   width: 15%;
   line-height: 1.5;
 }
+
 .contact-method {
   margin-left: 200px;
 }
+
 .contact-method-title {
   font-size: 20px;
   font-weight: bold;
 }
+
 .contact-wechat,
 .contact-qq,
 .contact-email {
   margin-top: 20px;
 }
+
 .contact-qrcode {
   width: 40%;
 }
+
 .qrcodeArea {
   display: flex;
 }
@@ -218,49 +243,61 @@ nav ul li a {
   margin-top: 20px;
   margin-left: 30px;
 }
+
 .contact-us-text {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .scan-text {
   color: grey;
 }
+
 .wechat-qrcode {
   margin-top: 30px;
   width: 150px;
 }
+
 .qq-qrcode-text,
 .wechat-qrcode-text {
   color: grey;
 }
+
 .wechat-qrcode-text {
   margin-bottom: 10px;
 }
+
 .qq-qrcode {
   width: 150px;
 }
+
 .qrcodeRightArea {
   width: 100%;
   border-bottom: 0.5px solid rgb(200, 200, 200);
 }
+
 .afterSales {
   display: flex;
   justify-content: center;
 }
+
 .afterSalesText {
   margin-top: 100px;
 }
+
 .afterSalesTitle {
   font-size: 40px;
   font-weight: bold;
 }
+
 .afterSalesContent {
   margin-top: 15px;
   font-size: 20px;
   color: grey;
   margin-left: -10px;
 }
+
 .serviceArea {
   margin-left: 100px;
   margin-right: 100px;
@@ -268,6 +305,7 @@ nav ul li a {
   margin-top: 30px;
   margin-bottom: 70px;
 }
+
 .contact-service {
   display: flex;
   flex-direction: column;
@@ -276,63 +314,78 @@ nav ul li a {
   text-align: center;
   margin-right: 50px;
 }
+
 .custom-icon {
   font-size: 50px;
   color: orange;
 }
+
 .serviceText {
   width: 300px;
 }
+
 .serviceTitle {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
 }
+
 .famousUniversityArea {
   display: flex;
   background-color: rgb(200, 200, 200, 0.15);
 }
+
 .famousUniversity {
   width: 50%;
 }
+
 .famousUniArea {
   margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .famousUniTitle {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 30px;
 }
+
 .famousUniText {
   font-size: 20px;
 }
+
 .specialService {
   display: flex;
 }
+
 .specialServiceImg {
   width: 50%;
 }
+
 .specialServiceArea {
   background-color: rgb(200, 200, 200, 0.2);
   flex: 1;
   padding-left: 50px;
   padding-bottom: 100px;
 }
+
 .specialServiceTitle {
   margin-top: 80px;
   font-size: 40px;
   font-weight: bold;
 }
+
 .specialServiceText {
   font-size: 20px;
   margin-top: 40px;
 }
+
 .customerEvaluationArea {
   background-color: rgb(200, 200, 200, 0.05);
   padding-bottom: 100px;
 }
+
 .customerEvaluation {
   display: flex;
   flex: 1;
@@ -354,6 +407,7 @@ nav ul li a {
 .evalutionArea {
   display: flex;
 }
+
 .evaluationContainer {
   position: relative;
   text-align: center;

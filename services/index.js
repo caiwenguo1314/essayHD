@@ -1,19 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document
-    .getElementById("scroll-link1")
-    .addEventListener("click", function () {
-      document.querySelector("#contact-footer").scrollIntoView({
-        behavior: "smooth",
-      });
-    });
-  document
-    .getElementById("scroll-link2")
-    .addEventListener("click", function () {
-      document.querySelector("#contact-footer").scrollIntoView({
-        behavior: "smooth",
-      });
-    });
-
   let lastScrollTop = 0;
   const navbar = document.getElementById("navbar");
   window.addEventListener("scroll", function () {

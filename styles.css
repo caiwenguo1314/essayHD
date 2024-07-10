@@ -11,10 +11,23 @@ header {
   width: 100%;
   z-index: 1000;
 }
+.headerContact {
+  padding: 10px 0;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 .navArea {
   display: flex;
   justify-content: space-between;
+}
+.navAreaContact {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }
 nav ul {
   list-style-type: none;
@@ -195,6 +208,11 @@ nav ul li a {
 }
 .qrcodeArea {
   display: flex;
+}
+.qrcodeArea-contact {
+  position: absolute;
+  display: flex;
+  top: 20px;
 }
 .qrcodeText {
   margin-top: 20px;

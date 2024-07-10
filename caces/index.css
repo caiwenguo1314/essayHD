@@ -17,11 +17,10 @@ html {
 }
 
 .cases-out {
-
   position: relative;
-  background-image: url("../images/caces-1.jpg");
+  background-image: url("../images/realcase/case-background-img.jpg");
   width: 100%;
-  height: 400px;
+  height: 40vh;
   background-size: cover;
 }
 
@@ -42,20 +41,19 @@ html {
   line-height: 60px;
   vertical-align: baseline;
   justify-content: center;
-  font-size: 26px;
+  font-size: 26px;  
 }
 
-.cases-menu div {
-  padding: 0 50px;
+.cases-menu div {  
+  cursor: pointer;
+  margin: 40px;
 }
 
 .cases-context {
   display: flex;
-  width: 1440px;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 0 auto;
-  margin-top: 50px;
+  justify-content: center;    
 }
 
 .cases-context>div {

@@ -12,17 +12,17 @@ html {
   scroll-behavior: smooth;
   /* 启用平滑滚动效果 */
 }
-.hidden{
+.hidden {
   display: none;
 }
 
 .cases-out {
-
   position: relative;
   background-image: url("../images/caces-1.jpg");
   width: 100%;
-  height: 400px;
+  height: 50vh;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .cases-features {
@@ -44,6 +44,9 @@ html {
   justify-content: center;
   font-size: 26px;
 }
+.cases-menu:hover {
+  cursor: pointer;
+}
 
 .cases-menu div {
   padding: 0 50px;
@@ -56,37 +59,39 @@ html {
   justify-content: flex-start;
   margin: 0 auto;
   margin-top: 50px;
+  background-color:rgb(241, 243, 244);
 }
 
-.cases-context>div {
+.cases-context > div {
   width: 400px;
   height: 200px;
   margin: 20px;
-  border: solid;
+  margin-left: 50px;
+  
 }
 
 .cases-engineering-1 {
-  display: flex;  
-  background-size: cover;  
+  display: flex;
+  background-size: cover;
   justify-content: center;
   align-items: center;
- 
 }
 
 .cases-engineering-1-hover {
-  display: flex; 
+  display: flex;
   width: 360px;
   height: 160px;
   background-color: rgba(0, 0, 0, 0.3);
-  border: orange solid 20px;
+  border:  rgba(87, 104, 150, 0.8) solid 20px;
   opacity: 0;
-  transition: opacity 0.5s ease; 
-  align-items: center; 
+  transition: opacity 0.5s ease;
+  align-items: center;
   font-size: 22px;
   color: white;
-  padding:0 40px;
+  padding: 0 40px;
+  justify-content: center;
 }
 
 .cases-engineering-1-hover:hover {
-  opacity: 1;  
+  opacity: 1;
 }

@@ -1,0 +1,33 @@
+a {
+  text-decoration: none; /* 取消下划线装饰 */
+  color: inherit; /* 继承父元素颜色 */
+  cursor: pointer; /* 设置光标类型为指针 */
+  background-color: transparent; /* 设置背景颜色为透明 */
+}
+
+a:hover {
+  color: inherit; /* 设置鼠标悬停时继承父元素颜色 */
+}
+html {
+  scroll-behavior: smooth;
+  /* 启用平滑滚动效果 */
+}
+.hidden {
+  display: none;
+}
+
+.cases-out {
+  position: relative;
+  background-image: url("../images/caces-1.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+.qrcodeArea-contact-page {
+  position: absolute;
+  display: flex;
+  top: 0;
+}
+.qrcodeRightArea-contact {
+  width: 100%;
+}

@@ -1,145 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cases</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>cases</title>
-  <link rel="stylesheet" href="../styles.css" />
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-  <div class="cases-out">
-    <header id="navbar">
-      <nav class="navArea">
-        <img class="logo-image" src="../images/logo.jpg" alt="Logo Image" id="logo-image" />
-        <ul>
-          <li><a href="../index.html">首页</a></li>
-          <li><a href="../services/index.html">服务</a></li>
-          <li><a href="../index.html">案例</a></li>
-          <li><a href="../contact/index.html">联系</a></li>
-          <li><a href="../about.html">关于我们</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="cases-features">
-      <span>Case Study Composition Services</span>
-      <div>
-        案例代笔
-      </div>
-
-    </div>
-  </div>
-  <div class="yourTask">
-    <div class="cases-menu">
-      <div onclick="selectClickHandler('caces-engineering')">
-        <span>SCIENCE & ENGINEERING</span>
-      </div>
-      <div onclick="selectClickHandler('caces-science')">
-        <span>HUMANITIES & BUSINESS</span>
-      </div>
-      <div onclick="selectClickHandler('caces-ALL')">
-        <span>ALL</span>
+  <body>
+    <div class="cases-out">
+      <header id="navbar">
+        <nav class="navArea">
+          <img
+            class="logo-image"
+            src="../images/logo.jpg"
+            alt="Logo Image"
+            id="logo-image"
+          />
+          <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../services/index.html">服务</a></li>
+            <li><a href="../index.html">案例</a></li>
+            <li><a href="../contact/index.html">联系</a></li>
+            <li><a href="../about.html">关于我们</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="cases-features">
+        <span>Case Study Composition Services</span>
+        <div>案例代笔</div>
       </div>
     </div>
-    <div class="cases-context">
-      <div class="caces-engineering">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-2.png);">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Computer Science 计算机科学代写、作业代做及计算机科学网课代上代修</span></a>
-          </div>
+    <div class="yourTask">
+      <div class="cases-menu">
+        <div onclick="selectClickHandler('caces-engineering')">
+          <span>SCIENCE & ENGINEERING</span>
         </div>
-        <div><span>计算机科学Computer Science</span></div>
-      </div>
-      <div class="caces-science">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-3.png);" id="caces-science">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Biological Sciences 生物学代写，生物学作业代做，生物学网课代修代上</span></a>
-          </div>
+        <div onclick="selectClickHandler('caces-science')">
+          <span>HUMANITIES & BUSINESS</span>
+        </div>
+        <div onclick="selectClickHandler('caces-ALL')">
+          <span>ALL</span>
         </div>
       </div>
-      <div class="caces-science">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-3.png);" id="caces-science">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Biological Sciences 生物学代写，生物学作业代做，生物学网课代修代上</span></a>
+      <div class="cases-context">
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/CS.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/CS.html"
+                ><span
+                  >Computer Science
+                  计算机科学代写、作业代做及计算机科学网课代上代修</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>计算机科学Computer Science</span></div>
         </div>
-      </div>
-      <div class="caces-science">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-3.png);" id="caces-science">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Biological Sciences 生物学代写，生物学作业代做，生物学网课代修代上</span></a>
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Biology.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Biology.html"
+                ><span
+                  >Biological Sciences
+                  生物学代写，生物学作业代做，生物学网课代修代上</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>生物科学Biology</span></div>
         </div>
-      </div>
-      <div class="caces-science">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-3.png);" id="caces-science">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Biological Sciences 生物学代写，生物学作业代做，生物学网课代修代上</span></a>
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Math.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Math.html"
+                ><span
+                  >Math
+                  数学代写，数学作业代做，数学网课代修代上</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>数学Math</span></div>
         </div>
-      </div>
-      <div class="caces-engineering">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-machine-4.jpg);">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>机械设计类案例分享</span></a>
+
+
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Physics.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Physics.html"
+                ><span
+                  >Physics
+                  物理学代写，物理学作业代做，物理学网课代修代上</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>物理学Physics</span></div>
         </div>
-      </div>
-      <div class="caces-engineering">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-2.png);">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Computer Science 计算机科学代写、作业代做及计算机科学网课代上代修</span></a>
+        
+        
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Chemistry.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Chemistry.html"
+                ><span
+                  >Chemistry
+                  化学代写，化学作业代做，化学网课代修代上</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>化学Chemistry</span></div>
         </div>
-      </div>
-      <div class="caces-engineering">
-        <div class="cases-engineering-1" style="background-image: url(../images/caces-2.png);">
-          <div class="cases-engineering-1-hover">
-            <a href="#"><span>Computer Science 计算机科学代写、作业代做及计算机科学网课代上代修</span></a>
+
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Machinery.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Machinery.html"
+                ><span
+                  >Machinery
+                  机械设计代写，机械设计作业代做，机械设计网课代修代上</span
+                ></a
+              >
+            </div>
           </div>
+          <div class="caces-title"><span>机械设计Machinery</span></div>
         </div>
+
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/architectural.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Architectural.html"
+                ><span
+                  >Architectural
+                  建筑设计代写，建筑设计作业代做，建筑设计网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>建筑设计Architectural</span></div>
+        </div>
+
+        <div class="caces-engineering">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Art.jpg)"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Art.html"
+                ><span
+                  >Art
+                  艺术设计代写，艺术设计作业代做，艺术设计网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>艺术设计Art</span></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Marketing.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Marketing.html"
+                ><span
+                  >Marketing
+                  市场营销学代写，市场营销学作业代做，市场营销学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>市场营销Marketing</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Accounting.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Accounting.html"
+                ><span
+                  >Accounting
+                  会计学代写，会计学作业代做，会计学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>会计学Accounting</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Economics.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Economics.html"
+                ><span
+                  >Economics
+                  经济学代写，经济学作业代做，经济学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>经济学Economics</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Finance.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Finance.html"
+                ><span
+                  >Finance
+                  金融学代写，金融学作业代做，金融学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>金融学Finance</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Investment-Management.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/InvestmentManagement.html"
+                ><span
+                  >Investment Management
+                  投资管理学代写，投资管理学作业代做，投资管理学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>投资管理Investment Management</span></div>
+        </div>
+    
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Philosophy.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Philosophy.html"
+                ><span
+                  >Philosophy
+                  哲学代写，哲学作业代做，哲学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>哲学Philosophy</span></div>
+        </div>
+
+    
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Journalism.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Journalism.html"
+                ><span
+                  >Journalism
+                  新闻学代写，新闻学作业代做，新闻学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>新闻学Journalism</span></div>
+        </div>
+
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Sociology.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Sociology.html"
+                ><span
+                  >Sociology
+                  社会学代写，社会学作业代做，社会学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>社会学Sociology</span></div>
+        </div>
+
+
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Psychology.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Psychology.html"
+                ><span
+                  >Psychology
+                  心里学代写，心里学作业代做，心里学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>心里学Psychology</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/History.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/History.html"
+                ><span
+                  >History
+                  历史学代写，历史学作业代做，历史学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>历史学History</span></div>
+        </div>
+
+
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Literature.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Literature.html"
+                ><span
+                  >Literature
+                  文学代写，文学作业代做，文学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>文学Literature</span></div>
+        </div>
+
+        <div class="caces-science">
+          <div
+            class="cases-engineering-1"
+            style="background-image: url(../images/case/Law.jpg)"
+            id="caces-science"
+          >
+            <div class="cases-engineering-1-hover">
+              <a href="../real-case/Law.html"
+                ><span
+                  >Law
+                  法律学代写，法律学作业代做，法律学网课代修代上</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="caces-title"><span>法律学Law</span></div>
+        </div>
+   
       </div>
     </div>
-  </div>
-  <hr>
-  <div class="know-more" id="services-footer">
-    <div class="logo-image-bottom-area">
-      <img class="logo-image-bottom" src="../images/logo.jpg" alt="Logo Image" />
-    </div>
 
-    <div class="know-more-info">
-      <div class="know-more-info-title">了解更多</div>
-      <div>
-        想要了解更多有关WORKESSAY业务范围、服务水平、订购流程、活动优惠等信息可随时联系在线客服，如有任何疑问我们都将为您悉心解答。
+
+    <hr />
+
+
+    
+    <div class="know-more" id="services-footer">
+      <div class="logo-image-bottom-area">
+        <img
+          class="logo-image-bottom"
+          src="../images/logo.jpg"
+          alt="Logo Image"
+        />
+      </div>       
+      
+
+      <div class="know-more-info">
+        <div class="know-more-info-title">了解更多</div>
+        <div>
+          想要了解更多有关WORKESSAY业务范围、服务水平、订购流程、活动优惠等信息可随时联系在线客服，如有任何疑问我们都将为您悉心解答。
+        </div>
+      </div>
+      <div class="contact-method">
+        <div class="contact-method-title">联系方式</div>
+        <div class="contact-wechat">微信: 745446932</div>
+        <div class="contact-qq">QQ: 745446932</div>
+        <div class="contact-email">邮箱: 745446932@qq.com</div>
       </div>
     </div>
-    <div class="contact-method">
-      <div class="contact-method-title">联系方式</div>
-      <div class="contact-wechat">微信: 745446932</div>
-      <div class="contact-qq">QQ: 745446932</div>
-      <div class="contact-email">邮箱: 745446932@qq.com</div>
-    </div>
-  </div>
-  <script src="../script.js"></script>
-  <script src="./index.js"></script>
-  <script>
-    // const clickHandler = (targetId) => {
-
-    //   console.log(targetId);
-    //   const targetElement = document.getElementById(targetId);
-    //   console.log(targetElement)
-    //   if (targetElement) {
-    //     targetElement.scrollIntoView({ behavior: 'smooth' });
-    //   }
-    // }
-
-
-
-  </script>
-
-
-</body>
-
+    <script src="../script.js"></script>
+    <script src="./index.js"></script>
+    <script></script>
+  </body>
 </html>

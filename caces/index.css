@@ -18,9 +18,9 @@ html {
 
 .cases-out {
   position: relative;
-  background-image: url("../images/realcase/case-background-img.jpg");
+  background-image: url("../images/case/case-background-img.jpg");
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   background-size: cover;
   margin: 0 auto;
 }
@@ -37,18 +37,17 @@ html {
 }
 
 .cases-menu {
-  margin-top: 50px;
   display: flex;
   line-height: 60px;
   vertical-align: baseline;
   justify-content: center;
-  font-size: 26px;  
+  font-size: 26px;
 }
 .cases-menu:hover {
   cursor: pointer;
 }
 
-.cases-menu div {  
+.cases-menu div {
   cursor: pointer;
   margin: 40px;
 }
@@ -57,7 +56,7 @@ html {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;    
+  justify-content: center;
 }
 
 .cases-context > div {
@@ -65,7 +64,16 @@ html {
   height: 200px;
   margin: 20px;
   margin-left: 50px;
-  
+  margin-top: 40px;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.caces-title {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 200;
 }
 
 .cases-engineering-1 {
@@ -80,7 +88,7 @@ html {
   width: 360px;
   height: 160px;
   background-color: rgba(0, 0, 0, 0.3);
-  border:  rgba(87, 104, 150, 0.8) solid 20px;
+  border: rgba(87, 104, 150, 0.8) solid 20px;
   opacity: 0;
   transition: opacity 0.5s ease;
   align-items: center;
@@ -88,8 +96,12 @@ html {
   color: white;
   padding: 0 40px;
   justify-content: center;
+  border-radius: 40px;
 }
 
 .cases-engineering-1-hover:hover {
   opacity: 1;
+}
+hr {
+  margin: 100px;
 }

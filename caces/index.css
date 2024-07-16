@@ -105,7 +105,12 @@ html {
 hr {
   margin: 100px;
 }
-@media(max-width: 768px){
+
+.know-more-text,
+.contact-method {
+  font-size: 15px;
+}
+@media (max-width: 768px) {
   .cases-out {
     position: relative;
     background-image: url("../images/case/case-background-img.jpg");
@@ -123,19 +128,19 @@ hr {
     text-align: center;
     font-size: 38rem;
     font-weight: 600;
-    width: 100%;   
+    width: 100%;
   }
-  .cases-menu {   
+  .cases-menu {
     line-height: 1.5;
-    vertical-align: baseline;    
+    vertical-align: baseline;
     font-size: 28rem;
-    box-sizing: border-box;   
-    justify-content: space-around; 
+    box-sizing: border-box;
+    justify-content: space-around;
   }
   .cases-context > div {
     width: 600rem;
     height: 370rem;
-    margin: 40rem;    
+    margin: 40rem;
     margin-top: 60rem;
     border-radius: 60rem;
     background-size: cover;
@@ -147,7 +152,7 @@ hr {
     font-size: 36rem;
     font-weight: 200;
   }
-  .cases-engineering-1-hover {    
+  .cases-engineering-1-hover {
     width: 540rem;
     height: 290rem;
     background-color: rgba(0, 0, 0, 0.3);
@@ -161,7 +166,4 @@ hr {
     justify-content: center;
     border-radius: 60rem;
   }
-  
-  
 }
-  

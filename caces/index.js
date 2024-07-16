@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // 向下滚动时，让导航栏自然离开页面
         navbar.style.position = "absolute";
         // console.log("scrollTop", scrollTop);
-        console.log(89879);
+        // console.log(89879);
       } else {
         // 向上滚动时，将导航栏固定在顶部
         navbar.style.position = "fixed";

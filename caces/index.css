@@ -166,4 +166,9 @@ hr {
     justify-content: center;
     border-radius: 60rem;
   }
+  hr {
+    margin: 0;
+    margin-top: 80rem;
+    margin-bottom: 80rem;
+  }
 }

@@ -56,13 +56,18 @@ nav ul li a {
   overflow: hidden;
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 758px) {
   .banner-image {
     height: 50vh;
   }
   .wechatNumber {
     font-size: 18px;
     cursor: pointer;
+  }
+  .logo-image-bottom {
+    width: 60%;
+    height: 35%;
   }
 }
 
@@ -90,7 +95,7 @@ nav ul li a {
 }
 
 .logo-image {
-  width: 10%;
+  width: 15%;
   margin-left: 20px;
 }
 
@@ -194,10 +199,7 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-.logo-image-bottom {
-  width: 70%;
-  height: 35%;
-}
+
 
 .logo-image-bottom-area {
   display: flex;

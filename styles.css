@@ -58,6 +58,9 @@ nav ul li a {
 
 
 @media (max-width: 758px) {
+  nav ul {
+   display: none;
+  }
   .banner-image {
     height: 50vh;
   }

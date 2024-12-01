@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <div id="hamburger-menu"></div>
   <div class="services-out">
     <header id="navbar">
       <nav class="navArea">
@@ -156,7 +157,19 @@
     </div>
   </div>
   <script src="script.js"></script>
-  <script src="./index.js"></script>
+  <script src="./index.js"></script>  
+  <script>    
+    fetch("../hamburger-menu.html")
+      // 将响应转换为文本格式
+      .then((response) => response.text())
+      // 将获取到的内容赋值给id为hamburger-menu的元素的innerHTML属性
+      .then((data) => { 
+        console.log(data);
+        document.getElementById("hamburger-menu").innerHTML = data;
+      });
+      
+  </script>  
+  
   <script>
     // const clickHandler = (targetId) => {
 

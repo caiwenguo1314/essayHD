@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <div id="hamburger-menu"></div>
     <div class="real-case-out">
       <header id="navbar">
         <nav class="navArea">
@@ -60,11 +61,11 @@
 
       <div class="know-more-info">
         <div class="know-more-info-title">了解更多</div>
-        <div>
+        <div style="font-size: 12px ;">
           想要了解更多有关WORKESSAY业务范围、服务水平、订购流程、活动优惠等信息可随时联系在线客服，如有任何疑问我们都将为您悉心解答。
         </div>
       </div>
-      <div class="contact-method">
+      <div class="contact-method" style="font-size: 16px ;">
         <div class="contact-method-title">联系方式</div>
         <div class="contact-wechat">微信: 745446932</div>
         <div class="contact-qq">QQ: 745446932</div>
@@ -72,5 +73,15 @@
       </div>
     </div>
     <script src="./script.js"></script>
+    <script>
+      fetch("/hamburger-menu.html")
+        // 将响应转换为文本格式
+        .then((response) => response.text())
+        // 将获取到的内容赋值给id为hamburger-menu的元素的innerHTML属性
+        .then((data) => {
+          document.getElementById("hamburger-menu").innerHTML = data;
+        });
+    </script>
+    <script src="/menu.js"></script>
   </body>
 </html>

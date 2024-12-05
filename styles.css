@@ -504,6 +504,7 @@ nav ul li a {
   .wechatNumber {
     font-size: 18px;
     cursor: pointer;
+    color: #444;
   }
 
   .banner-image {

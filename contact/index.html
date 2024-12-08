@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cases</title>
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
+    <div id="hamburger-menu"></div>
     <div class="cases-out">
-        <header id="navbar">
-            <nav class="navArea">
-                <img class="logo-image" src="../images/logo.jpg" alt="Logo Image" id="logo-image" />
-                <ul>
-                    <li><a href="../index.html">首页</a></li>
-                    <li><a href="../services/index.html">服务</a></li>
-                    <li><a href="../index.html">案例</a></li>
-                    <li><a href="index.html">联系</a></li>                    
-                </ul>
-            </nav>
-        </header>
-
+      <header id="navbar">
+        <nav class="navArea">
+          <img
+            class="logo-image"
+            src="../images/logo.jpg"
+            alt="Logo Image"
+            id="logo-image"
+          />
+          <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../services/index.html">服务</a></li>
+            <li><a href="../index.html">案例</a></li>
+            <li><a href="index.html">联系</a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
     <div class="banner-contact">
-        <div class="qrcodeArea-contact-page" id="contact-footer">
-            <img class="contact-qrcode" src="../images/contact-qrcode.jpg" alt="contact-qrcode">
-            <div class="qrcodeRightArea-contact">
-                <div class="qrcodeText">
-                    <div class="contact-us-text">联系我们</div>
-                    <div class="scan-text">扫描下方二维码，立即在线咨询！</div>
-                    <img class="wechat-qrcode" src="../images/wechat-qrcode.jpg" alt="wechat-qrcode">
-                    <div class="wechat-qrcode-text">微信: 745446932</div>
-                    <img class="qq-qrcode" src="../images/qq-qrcode.jpg" alt="qq-qrcode">
-                    <div class="qq-qrcode-text">QQ: 745446932</div>
-                </div>
-            </div>
+      <div class="qrcodeArea-contact-page" id="contact-footer">
+        <img
+          class="contact-qrcode"
+          src="../images/contact-qrcode.jpg"
+          alt="contact-qrcode"
+        />
+        <div class="qrcodeRightArea-contact">
+          <div class="qrcodeText">
+            <div class="contact-us-text">联系我们</div>
+            <div class="scan-text">扫描下方二维码，立即在线咨询！</div>
+            <img
+              class="wechat-qrcode"
+              src="../images/wechat-qrcode.jpg"
+              alt="wechat-qrcode"
+            />
+            <div class="wechat-qrcode-text">微信: 745446932</div>
+            <img
+              class="qq-qrcode"
+              src="../images/qq-qrcode.jpg"
+              alt="qq-qrcode"
+            />
+            <div class="qq-qrcode-text">QQ: 745446932</div>
+          </div>
         </div>
+      </div>
     </div>
     <script src="./index.js"></script>
     <script>
-
-
+      fetch("/hamburger-menu.html")
+        // 将响应转换为文本格式
+        .then((response) => response.text())
+        // 将获取到的内容赋值给id为hamburger-menu的元素的innerHTML属性
+        .then((data) => {
+          console.log(data);
+          document.getElementById("hamburger-menu").innerHTML = data;
+        });
     </script>
-
-
-</body>
-
+    <script src="/menu.js"></script>
+  </body>
 </html>

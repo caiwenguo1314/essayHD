@@ -15,7 +15,7 @@
   z-index: 1;
   backdrop-filter: blur(8px); /* 背景模糊效果 */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* 轻微阴影效果 */
-  transition: opacity 0.3s ease-in-out; /* 渐变动画 */ 
+  transition: opacity 0.3s ease-in-out; /* 渐变动画 */
 }
 
 .hamburger-menu li {
@@ -49,7 +49,7 @@
   /* 设置鼠标悬停时的光标样式为手型 */
   cursor: pointer;
   display: none; /* 默认不显示 */
-  padding: 4px 8px;
+  padding: 12px;
   color: rgba(33, 32, 32,0.9);
   /* 设置元素为固定定位 */
   position: fixed;
@@ -58,11 +58,7 @@
   z-index: 2;
   transition: background-color 0.3s ease, transform 0.3s ease;
   font-size: 20px;
-  font-weight: bolder; 
-  background: rgba(255, 255, 255, 0.3); 
-  border-radius: 8px; /* 圆角效果 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影增加立体感 */
-
+  font-weight: bolder;
 }
 
 .menu-icon:hover {

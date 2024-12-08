@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-  </head>
+  <html lang="zh-CN">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      
+      <!-- SEO Meta Tags -->
+      <meta name="description" content="ESSAYHD专注为海外留学生提供专业学术服务，涵盖Essay写作、考试保分、网课管理等。12年经验，5000+学员见证高分成果。" />
+      <meta name="keywords" content="留学, Essay写作, 托福, 雅思, GRE, SAT, 网课管理, 高分保分, 学术服务, 留学生服务" />
+      <meta name="author" content="ESSAYHD团队" />
+      <meta name="robots" content="index, follow" />
+      
+      <!-- Open Graph Tags for Social Media -->
+      <meta property="og:title" content="ESSAYHD - 留学学术服务" />
+      <meta property="og:description" content="ESSAYHD专注为留学生提供专业的学术写作、考试保分、网课管理等服务，帮助学生取得高分。" />
+      <meta property="og:image" content="images/logo.jpg" />
+      <meta property="og:url" content="https://www.essayhd.com" />
+      <meta property="og:type" content="website" />
+      
+      <!-- Twitter Card Meta Tags -->
+      <meta name="twitter:title" content="ESSAYHD - 留学学术服务" />
+      <meta name="twitter:description" content="为留学生提供高质量的学术服务，帮助学生提升学术成绩。" />
+      <meta name="twitter:image" content="images/logo.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      
+      <title>ESSAYHD - 留学学术服务，Essay写作，网课管理，考试保分</title>
+      <link rel="stylesheet" href="styles.css" />
+      <!-- <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      /> -->
+    </head>
 
   <body>
     <div id="hamburger-menu"></div>
- 
     <header id="navbar">
       <nav class="navArea">
         <img
@@ -264,8 +284,8 @@
         <div class="contact-email">邮箱: 745446932@qq.com</div>
       </div>
     </div>
-    <script src="script.js"></script>    
-    <script>    
+    <script src="script.js"></script>
+    <script>
       fetch("hamburger-menu.html")
         // 将响应转换为文本格式
         .then((response) => response.text())
@@ -274,6 +294,6 @@
           document.getElementById("hamburger-menu").innerHTML = data;
         });
     </script>
-    <script src="menu.js"></script>    
+    <script src="/menu.js"></script>
   </body>
 </html>
